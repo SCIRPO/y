@@ -1,0 +1,32 @@
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.person span {
+  opacity: 0.5;
+}
+
+.person.active span {
+  opacity: 0.8;
+  color: aquamarine;
+}
+.online-badge {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: springgreen;
+  margin-top: 2px;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+.offline-badge {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: thistle;
+  margin-top: 2px;
+  margin-right: 8px;
+  opacity: 0.5;
+}

@@ -1,0 +1,17 @@
+.channel span {
+  display: flex;
+  align-items: center;
+}
+
+.channel span {
+  opacity: .5;
+}
+
+.channel i {
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+.channel.active span {
+  opacity: 1;
+}
